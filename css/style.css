@@ -1,0 +1,156 @@
+
+        html {
+            /*we can use google font for different fonts*/
+            font-family: "Anta", sans-serif;
+            /*also we can use color picker for different color*/
+            color: black;
+        }
+        body {
+            align-items: left;
+    
+        }
+        .background {
+           background-color: black;
+           background: rgb(50, 141, 168, 0.5);
+           background-size: 10rem;
+           
+        } 
+        header {
+            /*background-color: black;*/
+           text-align: center; 
+           display: flex;
+           flex-direction: column;
+        }
+        header h1 {
+            margin: 0;
+            padding: 10px;
+        }
+        li {
+            list-style: none;
+            padding: 10px;
+            flex-direction: row-reverse;
+        }
+        ul {
+            padding: 0;
+        }
+        .journey-image {
+            background: url(https://images.pexels.com/photos/17501049/pexels-photo-17501049/free-photo-of-hill-station-in-himalayas.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat center center fixed;
+            min-height: 100vh;
+            background-size: cover;
+            display: flex;
+            /*align-items: center;*/
+            justify-content: center;  
+        }
+        .image-background{
+            display: flex;
+            font-size: 30px;
+            height: 20vh;
+            width: 50vh;
+            background-color: rgb(50, 141, 168, 0.5);
+            text-align: center;
+            justify-content: center;
+
+        }
+        .journey-text {
+            text-align: center;
+            font-size: 2em;
+            padding: 1.5em;
+            border-radius: 10px;
+            color: black;
+            /*background-color: black;*/
+        }
+        .wrapper {
+            align-items: left;
+            background-size: 15vh;
+            /*width: 75%;*/
+            display: flex;
+            flex-direction: column;
+        }
+        article, .sidebar-widget {
+            padding: 15px;
+            margin: 15px 0;
+        }
+        article > header {
+            background: #d8d8d8;
+        }
+        img {
+            width: 100%;
+        }
+        i {
+            width: 0 5px;
+        }
+        a:hover {
+            color: blueviolet;
+        }
+        td:nth-child2() {
+            padding-left: 30px;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+            font-size: 1.5em;
+            
+        } 
+        
+    
+        @media (min-width: 1000px){
+            body{
+                max-width: 1600px;
+                margin: 0 auto;
+            }  
+        
+        header {
+            flex-direction: row;
+        }
+        header li {
+            display: inline-block;
+        }
+        header h1, header nav {
+            flex: 1;
+        }
+        header h1 {
+            text-align: left;
+        }
+        header nav {
+            text-align: right;
+        }
+        /*section {
+            font-family: "Anta", sans-serif;
+        }*/
+        .wrapper .about{
+            flex-direction: row;
+        }
+        main {
+            flex: 3;
+        }
+        aside {
+            flex-direction: row;
+            flex: 1;
+            margin-left: 15px;
+        }
+        article > header {
+            justify-content: space-around;
+        }
+    }
+        /*.sidebar-widget .background{
+            background-size: 30%;
+            width: 30%;
+            justify-content: right;
+            display: inline-block;
+            color: saddlebrown;
+            padding-left: 30%;
+
+        }*/
+        /*.about {
+            align-items: left;
+            background-size: 15vh;
+            /*width: 75%;
+            display: flex;
+            flex-direction: row ;
+        }*/
+        .footer {
+            background-color: cyan;
+        }
+        
+        
+        
